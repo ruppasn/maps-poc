@@ -34,5 +34,5 @@
     * @turf/bbox-polygon- Takes a bbox and returns an equivalent polygon
     * @turf/helpers- feature like units, areas, measurements.
     * @turf/buffer - draw the buffer to geojson
-D3-geo:
+* D3-geo:
     * Gives ```geoMercator``` map projection.
