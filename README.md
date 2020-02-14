@@ -3,11 +3,11 @@
 ## Run app
 * To install all dependencies
 
-        ```pnpm install```
+        pnpm install
 
 * To start application
 
-        ```pnpm start```
+        pnpm start
 
 ## Important map modules
 * Mapd-charting
