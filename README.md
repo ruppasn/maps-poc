@@ -16,7 +16,7 @@
 
 * google-maps
     * Loads and uses google maps api.
-    * see ```Googlemapsloader``` api.
+    * See ```Googlemapsloader``` api.
 
 * mapbox-gl (Graphics Library)
     * Library to manage maps.
@@ -24,9 +24,9 @@
     * Defines the visual appearance of a map- Create map, add icons, text, change style, 3d view,draw items on it..etc
 
 * @mapbox/mapbox-gl-draw
-    * drawing and editing features on mapboxGl map
+    * Drawing and editing features on mapboxGl map
 * mapbox/mapbox-gl-draw-static-mode
-    * custom mode for mapbox/mapbox-gl-draw
+    * Custom mode for mapbox/mapbox-gl-draw
 
 * @turf/xxx"
     * Turf - multiple modules (modular geospatial engine). Uses GeoJSON format.
