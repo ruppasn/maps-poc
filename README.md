@@ -36,3 +36,9 @@
     * @turf/buffer - draw the buffer to geojson
 * D3-geo:
     * Gives ```geoMercator``` map projection.
+    
+## Storybook
+
+Story is a visual test case.
+
+* To start storybook run ```pnpm run storybook``` command and access it on ```http://localhost:9009/```
