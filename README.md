@@ -24,7 +24,7 @@
     * Defines the visual appearance of a map- Create map, add icons, text, change style, 3d view,draw items on it..etc
 
 * @mapbox/mapbox-gl-draw
-    * drawing and editing features on mapboxGl map
+    * drawing and editing features (eg: polygon) on mapboxGl map
 * mapbox/mapbox-gl-draw-static-mode
     * custom mode for mapbox/mapbox-gl-draw
 
@@ -32,7 +32,12 @@
     * Turf - multiple modules (modular geospatial engine). Uses GeoJSON format.
     * @turf/bbox - bounding box- gives array of coordinates
     * @turf/bbox-polygon- Takes a bbox and returns an equivalent polygon
-    * @turf/helpers- feature like units, areas, measurements.
+    * @turf/helpers- feature like units, areas, measurements (eg: calculate area in square meters)
     * @turf/buffer - draw the buffer to geojson
 * D3-geo:
     * Gives ```geoMercator``` map projection.
+
+
+References:
+
+* https://docs.mapbox.com/mapbox-gl-js/examples/

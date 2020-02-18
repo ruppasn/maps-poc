@@ -3,7 +3,7 @@ import mapboxgl from 'mapbox-gl'
 export const containerId = 'containerId'
 export const mapContainerStyle = { position: 'absolute', left: 50, top: 50, bottom: 0, height: '500px', width: '900px' }
 
-const mapViews = {
+export const mapViews = {
     satellite: 'mapbox://styles/mapbox/satellite-v9',
     streets: 'mapbox://styles/mapbox/streets-v11',
     light: 'mapbox://styles/mapbox/light-v10'
