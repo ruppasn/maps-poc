@@ -1,6 +1,6 @@
-import {combineReducers} from 'redux'
-import mapReducer from './map/mapReducer'
+import { combineReducers } from 'redux'
+import mapBoxGlMapReducer from './maps/mapReducer'
 
 export default combineReducers({
-    map: mapReducer
+    map: mapBoxGlMapReducer
 })
