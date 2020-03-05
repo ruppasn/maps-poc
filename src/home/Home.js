@@ -10,7 +10,8 @@ export default () => {
             <li><Link to="/basic">Basic Map</Link></li>
             <li><Link to="/3d">3D Building Map</Link></li>
             <li><Link to="/points">Points on Map</Link></li>
-            <li><Link to="/draw">Using MapBoxGLDraw</Link></li>
+            <li><Link to="/draw">Draw Polygons On Map</Link></li>
+            <li><Link to="/showploygon">Show Polygons On Map</Link></li>
             
             </ul>
         </div>
