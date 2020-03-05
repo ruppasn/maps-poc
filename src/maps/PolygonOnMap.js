@@ -1,10 +1,8 @@
-import React from 'react';
 import { mapViews } from '../map-config/initialConfig';
 import MapboxDraw from '@mapbox/mapbox-gl-draw';
 import '@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.css';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import renderBaseMap from '../map-config/MapWrapper';
-import BaseMap from '../map-config/BaseMap';
 
 const polygon = {
     'type': 'geojson',
