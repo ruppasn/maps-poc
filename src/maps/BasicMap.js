@@ -1,14 +1,3 @@
-import React, { useEffect } from 'react';
-import initializeMap, { containerId, mapContainerStyle } from '../map-config/mapInitializer'
-import WithHeader from '../home/WithHeader';
+import renderBaseMap from '../map-config/MapWrapper';
 
-const MapBoxGlMap = () => {
-
-    useEffect(() => {
-        initializeMap()
-    }, []);
-
-    return <div id={containerId} style={mapContainerStyle}></div>
-}
-
-export default WithHeader(MapBoxGlMap);
+export default renderBaseMap();
