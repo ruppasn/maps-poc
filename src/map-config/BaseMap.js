@@ -1,16 +1,19 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import initializeMap, { renderMap } from './initialConfig';
 import WithHeader from '../home/WithHeader';
 
 const BaseMap = ({ mapProps, onLoad, onInit }) => {
 
+    const onLoadRef = useRef(onLoad);
+    const onInitRef = useRef(onInit);
+
     useEffect(() => {
         const map = initializeMap(mapProps);
-        onLoad && map.on('load', function () {
-            onLoad(map);
+        onLoadRef.current && map.on('load', function () {
+            onLoadRef.current(map);
         });
-        onInit && onInit(map);
-    }, [mapProps, onLoad, onInit]);
+        onInitRef.current && onInitRef.current(map);
+    }, [mapProps, onLoadRef, onInitRef]);
 
     return renderMap();
 }
